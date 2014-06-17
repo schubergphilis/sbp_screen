@@ -20,5 +20,5 @@
 default['screen']['tunables']['termcap_xterm']     = 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
 default['screen']['tunables']['terminfo_xterm']    = 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
 default['screen']['tunables']['hardstatus']        = 'alwayslastline'
-default['screen']['tunables']['hardstatus_string'] = '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r} (%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+default['screen']['tunables']['hardstatus_string'] = '"%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r} (%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]"'
 default['screen']['tunables']['vbell']             = 'off'
