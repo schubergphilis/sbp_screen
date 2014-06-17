@@ -22,7 +22,7 @@ terminfo xterm <%= @tunables['terminfo_xterm'] %>
 hardstatus <%= @tunables['hardstatus'] %>
 <% end -%>
 <% if @tunables['hardstatus_string'] && @tunables['hardstatus_string'] != '' -%>
-hardstatus string <%= @tunables['hardstatus_string'] %>
+hardstatus string "<%= @tunables['hardstatus_string'] %>"
 <% end -%>
 <% if @tunables['vbell'] && @tunables['vbell'] != '' -%>
 vbell <%= @tunables['vbell'] %>
