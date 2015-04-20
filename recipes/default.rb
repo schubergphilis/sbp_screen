@@ -19,6 +19,8 @@
 
 package "screen"
 
+group "screen"
+
 template "/etc/screenrc" do
   source "screenrc.erb"
   owner "root"
